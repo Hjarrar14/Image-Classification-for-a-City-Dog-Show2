@@ -146,7 +146,7 @@ Real:                     beagle   Classifier:  walker hound, walker foxhound
 
                     cat_02.jpg: 
 Real:                        cat   Classifier:          tabby, tabby cat, cat  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
              Basenji_00974.jpg: 
 Real:                    basenji   Classifier:                        basenji  
@@ -154,7 +154,7 @@ PetLabelDog: 1  ClassLabelDog: 1
 
                 Rabbit_002.jpg: 
 Real:                     rabbit   Classifier: wood rabbit, cottontail, cottontail rabbit, rabbit  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
               Collie_03797.jpg: 
 Real:                     collie   Classifier:                         collie  
@@ -230,7 +230,7 @@ PetLabelDog: 1  ClassLabelDog: 1
 
                  skunk_029.jpg: 
 Real:                      skunk   Classifier:     skunk, polecat, wood pussy  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
        Saint_bernard_08036.jpg: 
 Real:              saint bernard   Classifier:      saint bernard, st bernard  
@@ -262,19 +262,19 @@ PetLabelDog: 1  ClassLabelDog: 1
 
            fox_squirrel_01.jpg: 
 Real:               fox squirrel   Classifier: fox squirrel, eastern fox squirrel, sciurus niger  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
              polar_bear_04.jpg: 
 Real:                 polar bear   Classifier: ice bear, polar bear, ursus maritimus, thalarctos maritimus  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
                     cat_07.jpg: 
 Real:                        cat   Classifier:              egyptian cat, cat  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
                   gecko_02.jpg: 
 Real:                      gecko   Classifier:            banded gecko, gecko  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
       Boston_terrier_02259.jpg: 
 Real:             boston terrier   Classifier:    boston bull, boston terrier  
@@ -288,11 +288,11 @@ PetLabelDog: 1  ClassLabelDog: 1
 
                   gecko_80.jpg: 
 Real:                      gecko   Classifier: tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
        great_horned_owl_02.jpg: 
 Real:           great horned owl   Classifier: ruffed grouse, partridge, bonasa umbellus  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
       Great_pyrenees_05367.jpg: 
 Real:             great pyrenees   Classifier:                         kuvasz  
@@ -300,7 +300,7 @@ PetLabelDog: 1  ClassLabelDog: 1
 
                     cat_01.jpg: 
 Real:                        cat   Classifier:                           lynx  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
               Beagle_01170.jpg: 
 Real:                     beagle   Classifier:  walker hound, walker foxhound  
@@ -309,32 +309,29 @@ PetLabelDog: 1  ClassLabelDog: 1
 # Total Images 40 # Matches: 35 # NOT Matches: 5
 
  ** Statistics from calculates_results_stats() function:
-N Images: 40  N Dog Images: 40  N NotDog Images:  0 
-Pct Corr dog: 100.0 Pct Corr NOTdog:   0.0  Pct Corr Breed:  87.5
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  93.3
 
  ** Check Statistics - calculated from this function as a check:
-N Images: 40  N Dog Images: 40  N NotDog Images:  0 
-Pct Corr dog: 100.0 Pct Corr NOTdog:   0.0  Pct Corr Breed:  87.5
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  93.3
 
 
 Result Summary for CNN Model Architecture VGG ***
 
 N Images            :  40
-N Dog Images        :  40
-N Not-Dogs Images   :   0
+N Dog Images        :  30
+N Not-Dogs Images   :  10
 
 
 summary statistics (percentages) on Model Run
 pct_match : 87.5
 pct_correct_dogs : 100.0
-pct_correct_breed : 87.5
-pct_correct_notdogs : 0.0
+pct_correct_breed : 93.33333333333333
+pct_correct_notdogs : 100.0
 
 INCORRECT Dog Breed Assignment:
-Real :                      gecko   Classifier: tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui
-Real :           great horned owl   Classifier: ruffed grouse, partridge, bonasa umbellus
 Real :             great pyrenees   Classifier:                         kuvasz
-Real :                        cat   Classifier:                           lynx
 Real :                     beagle   Classifier:  walker hound, walker foxhound
 
-** Total Elapsed Runtime: 0:0:22
+** Total Elapsed Runtime: 0:0:21

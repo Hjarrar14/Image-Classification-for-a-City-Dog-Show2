@@ -32,11 +32,11 @@ Real:                        dog   Classifier: dingo, warrigal, warragal, canis 
 
              black_bear_02.jpg: 
 Real:                 black bear   Classifier: american black bear, black bear, ursus americanus, euarctos americanus  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
                    frog_01.jpg: 
 Real:                       frog   Classifier: tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
  NOT A MATCH:
 
@@ -51,26 +51,26 @@ PetLabelDog: 1  ClassLabelDog: 0
 # Total Images 4 # Matches: 2 # NOT Matches: 2
 
  ** Statistics from calculates_results_stats() function:
-N Images:  4  N Dog Images:  4  N NotDog Images:  0 
-Pct Corr dog:  50.0 Pct Corr NOTdog:   0.0  Pct Corr Breed:  50.0
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:   0.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
 
  ** Check Statistics - calculated from this function as a check:
-N Images:  4  N Dog Images:  4  N NotDog Images:  0 
-Pct Corr dog:  50.0 Pct Corr NOTdog:   0.0  Pct Corr Breed:  50.0
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:   0.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
 
 
 Result Summary for CNN Model Architecture ALEXNET ***
 
 N Images            :   4
-N Dog Images        :   4
-N Not-Dogs Images   :   0
+N Dog Images        :   2
+N Not-Dogs Images   :   2
 
 
 summary statistics (percentages) on Model Run
 pct_match : 50.0
-pct_correct_dogs : 50.0
-pct_correct_breed : 50.0
-pct_correct_notdogs : 0.0
+pct_correct_dogs : 0.0
+pct_correct_breed : 0.0
+pct_correct_notdogs : 100.0
 
 INCORRECT Dog/NOT Dog Assignmets:
 Pet Label: dog Classifier Label: gibbon, hylobates lar

@@ -72,7 +72,7 @@ def adjust_results4_isadog(results_dic, dogfile):
       line = insidefile.readline()
 
       while line !='':
-        line = line.rstrip()
+        line = line.rstrip('\n')
         if line not in dognames_dic:
           dognames_dic[line] = 1
         else:
@@ -92,6 +92,6 @@ def adjust_results4_isadog(results_dic, dogfile):
         if results_dic[key][1] in dognames_dic:
           results_dic[key].extend((0,1))
         else:
-          results_dic[key].extend((1,1))
+          results_dic[key].extend((0,0))
         
     None
